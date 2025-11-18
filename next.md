@@ -70,3 +70,14 @@ app > layout.tsx => body > {children}
 
 설치
 npm i axios
+
+---
+
+useState(), useReducer() : 상태 관리, 상태 업데이트 훅
+useReducer() : 주로 복잡한 상태관리 로직을 다루거나 여러 컴포넌트 간의 상태를 공유할 때 사용
+const [state, dispatch] = useReducer(reducer, initialState)
+
+- state : 상태를 관리할 변수 명
+- dispatch : state 변경시 필요한 정보를 전달하는 함수
+- reducer : dispatch를 확인해서 state를 변경해주는 함수
+- initialState : state의 초기값
