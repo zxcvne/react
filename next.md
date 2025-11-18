@@ -62,3 +62,11 @@ app/lib 폴더 : DB연결 설정, 서버 설정 전반적인 설정값을 저장
   app/board/[id]/page.tsx => /board/1, /board/6
 
 app > layout.tsx => body > {children}
+
+- JavaScript => ajax(Asynchronous Javascript And Xml) => fetch
+- React => axios라이브러리 설치 => node.js와 브라우저를 위한 Promise API를 활용하는 HTTP 통신 라이브러리이다.
+  외부 api를 가져올 때 사용하는 라이브러리
+- Next.js => ajax 내장 => fetch 가능(내부서버연결용 DB). axios 추가 설치도 가능(외부 API 연결용)
+
+설치
+npm i axios
