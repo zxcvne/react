@@ -89,3 +89,7 @@ next.js 서버 <-> mysql DB
 - npx create-next-app@latest next-board
 - cd next-board
 - npm i mysql2
+
+
+
+
