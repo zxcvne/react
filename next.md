@@ -81,3 +81,11 @@ const [state, dispatch] = useReducer(reducer, initialState)
 - dispatch : state 변경시 필요한 정보를 전달하는 함수
 - reducer : dispatch를 확인해서 state를 변경해주는 함수
 - initialState : state의 초기값
+
+---
+
+next.js 서버 <-> mysql DB
+
+- npx create-next-app@latest next-board
+- cd next-board
+- npm i mysql2
